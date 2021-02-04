@@ -31,6 +31,10 @@ function LoginScreen(props) {
                 </form>
 
             </div>
+            
+        </div>
+        <div className="marca-de-agua">
+        <img alt="" src="URL-IMAGEN" />
         </div>
 
     );
