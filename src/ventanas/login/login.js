@@ -21,6 +21,7 @@ function LoginScreen(props) {
     }
 
     return (
+        
         <div className="contenedor">
             <div className="login-form">
                 <h1>Gestion Multirubro</h1>
@@ -33,9 +34,7 @@ function LoginScreen(props) {
             </div>
             
         </div>
-        <div className="marca-de-agua">
-        <img alt="" src="URL-IMAGEN" />
-        </div>
+      
 
     );
 }
