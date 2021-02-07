@@ -1,0 +1,44 @@
+.navbar {
+    background: rgba(156, 32, 86, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar .list .item{
+    font-size: 1.2rem;
+    padding: 15px 30px;
+}
+
+.link-item{
+    color: white;
+    text-decoration: none;
+}
+
+.link-item-active {
+    border: 0.5px solid white;
+    border-radius: 10%;
+    background: rgb(122, 25, 67);    
+}
+
+.navbar .user-section{
+    align-self: center;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 30px;
+    color:white;
+
+}
+.user-links {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.username{
+    margin-right: 5px;
+}
